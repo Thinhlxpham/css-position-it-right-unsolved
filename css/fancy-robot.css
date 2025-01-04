@@ -6,7 +6,7 @@
 .robot-face-shape {
   width: 300px;
   height: 200px;
-  background: #000;
+  background-image: linear-gradient(tomato, rgb(33, 142, 232));
   margin-top: 20%;
   margin-right: 50%;
   margin-left: 40%;
@@ -19,11 +19,11 @@
   width: 50px;
   height: 50px;
   background-image: url(https://picsum.photos/seed/picsum/200/300);
-  background-position: fixed;
   border-radius: 50%;
-  top:40px;
+  top: 40px;
   left: 60px;
   position: absolute;
+  opacity: inherit;
 }
 
 .robot-eye-right {
@@ -31,25 +31,25 @@
   height: 50px;
   background-image: linear-gradient(darkblue, green);
   border-radius: 70px / 50px;
-  top:40px;
+  top: 40px;
   right: 30px;
   position: absolute;
 }
 
 .robot-ear-left {
-      width: 0px;
-      height: 0px;
-      border-right: 40px solid transparent;
-      border-top: 40px solid red;
-      border-left: 40px solid red;
-      border-bottom: 40px solid red;
-      border-top-left-radius: 60px;
-      border-top-right-radius: 60px;
-      border-bottom-left-radius: 60px;
-      border-bottom-right-radius: 60px;
-      top: 50%;
-      left: 33%;
-      position: absolute;
+  width: 0px;
+  height: 0px;
+  border-right: 40px solid transparent;
+  border-top: 40px solid red;
+  border-left: 40px solid red;
+  border-bottom: 40px solid red;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  top: 50%;
+  left: 36%;
+  position: absolute;
 }
 
 .robot-ear-right {
@@ -63,76 +63,74 @@
   border-top-right-radius: 60px;
   border-bottom-left-radius: 60px;
   border-bottom-right-radius: 60px;
-  top : 50%;
-  right: 32%;
+  top: 50%;
+  right: 40%;
   position: absolute;
 }
 
 .robot-nose {
-      width: 0;
-      height: 0;
-      border-left: 50px solid transparent;
-      border-right: 50px solid transparent;
-      border-bottom: 70px solid rgb(249, 242, 48);
-      background-image: linear-gradient(lightgreen, yellow);
-      top:50px;
-      left: 100px;
-      position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 70px solid rgb(249, 242, 48);
+  background-image: linear-gradient(lightgreen, yellow);
+  top: 50px;
+  left: 100px;
+  position: absolute;
 }
 
-
-.robot-teeth{
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      box-shadow: 0 10px 0 5px bisque;
-      top: 60%;
-      bottom: 30px;
-      left: 43%;
-      position: absolute;
+.robot-teeth {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 10px 0 5px bisque;
+  top: 60%;
+  bottom: 30px;
+  left: 43%;
+  position: absolute;
 }
 
 .robot-hair-style {
   width: 20px;
   height: 40px;
   background-color: aqua;
-  position: fixed;
-  left: 50%;
-  top: 35%;
+  position: absolute;
+  right: 52%;
+  top: 36%;
 }
 
 .robot-hair-one {
   width: 20px;
   height: 30px;
   background-color: coral;
-  position: fixed;
-  left: 47%;
-  top: 36%;
+  position: absolute;
+  right: 1cm;
+  top: 35%;
 }
 
 .robot-hair-two {
   width: 20px;
   height: 30px;
   background-color: rgb(222, 184, 135);
-  position: fixed;
-  left: 44%;
-  top: 36%;
+  position: relative;
+  left: 1cm;
+  top: 35%;
 }
 
 .robot-hair-three {
   width: 20px;
   height: 30px;
-  background-color: #9932CC;
-  position: fixed;
-  right: 45%;
-  top: 36%;
+  background-color: #9932cc;
+  position: relative;
+  right: 2cm;
+  bottom: 4mm;
 }
 .robot-hair-fourth {
   width: 20px;
   height: 30px;
-  background-color: #2F4F4F;
-  position: fixed;
-  right: 42%;
-  top: 36%;
-
+  background-color: #2f4f4f;
+  position: relative;
+  left: 2cm;
+  bottom: 1.2cm;
 }

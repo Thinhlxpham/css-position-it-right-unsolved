@@ -3,11 +3,10 @@
   padding: 30px;
   margin-top: 60px;
   width: 100%;
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  z-index: 100;
+  z-index: 1;
 }
 
 .legal-header h1 {
@@ -18,8 +17,7 @@
 
 main {
   width: 100%;
-  padding: 10px;
-  z-index: 99;
+  margin-top: 150px;
 }
 
 section {
@@ -39,6 +37,9 @@ section {
   height: max-content;
   width: 100%;
   padding: 10px 16px;
+  position: sticky;
+  top: 20%;
+  bottom: 0;
 }
 
 .document-content {
@@ -72,7 +73,6 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  z-index: 100;
 }
 
 .footer-content {
